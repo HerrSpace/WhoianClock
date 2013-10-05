@@ -1,0 +1,51 @@
+* { margin: 0; }
+body, html { 
+	overflow: hidden; 
+	margin-top: 10px;
+}
+
+body
+{
+	background: #F5F5F5;
+	font-family: "Helvetica Neue",Arial,sans-serif;
+}
+
+p
+{
+	color: black;
+	font-size: 50px;
+	font-weight: 100;
+}
+
+span
+{
+	color: gray;
+}
+
+#hand
+{
+	background-color: red;
+	position: absolute;
+	left: 50%;
+	width: 5px;
+	height: 100%;
+}
+
+.face
+{
+	height: 288px;
+	width: 100%;
+	margin-bottom:30px;
+
+	background-image: url("./img/bg.jpg");
+	background-position: center;
+	background-repeat: repeat-x;
+	background-size: 6144px 288px;
+}
+
+#version
+{
+	position:absolute;
+	right:5px;
+	bottom:5px;
+}
